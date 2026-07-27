@@ -1,4 +1,5 @@
- let stack = [];
+var simplifyPath = function(path) {
+    let stack = [];
 
     let parts = path.split('/');
 
@@ -18,3 +19,4 @@
     }
 
     return '/' + stack.join('/');
+};
